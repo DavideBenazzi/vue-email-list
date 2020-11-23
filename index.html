@@ -12,11 +12,11 @@
 </head>
 <body>
     <div id="app">
-        <ol>
-            <li>
-                <!-- mail 1 , 2 , 3 , etc.  -->
+        <ul>
+            <li v-for='email in listEmail'>
+                {{ email }}
             </li>
-        </ol>
+        </ul>
 
     </div>
 
