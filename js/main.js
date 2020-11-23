@@ -8,7 +8,6 @@ const app = new Vue ({
     },
     created() {
         this.emailGenerator();
-        console.log(this.listEmail);
     },
     methods: {
         // LOOP FOR CREATE 10 EMAIL
